@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <title>Lista de Tarefas</title>
+   <meta charset="utf-8">
+   <script type="text/javascript" src="../js/jquery-3.3.1.js"></script>
+   <link rel="stylesheet" type="text/css" href="estilos.css">
+   <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+<div class="container">
+   <header class="cabecalho">
+      <h1 class="titulo">Lista de tarefas</h1>
+      <div class="form-control">
+         <form>
+            <input type="text" name="tarefa" class="tarefa-entrada" placeholder="Adicionar uma tarefa">
+            <button class="addTarefa">Adicionar</button>
+         </form>
+      </div>
+   </header>
+
+   <section class="lista-tarefas">
+      <div class="item-lista">
+         <form>
+            <label class="selecao-tarefa">
+               <input type="checkbox" name="selecao-tarefa" class="chkList"><span class="texto-tarefa">Tarefa 1</span>
+            </label>
+            <button class="remove-item">Apagar</button>
+         </form>
+      </div>
+      <div class="item-lista">
+         <form>
+            <label class="selecao-tarefa">
+               <input type="checkbox" name="selecao-tarefa" class="chkList"><span class="texto-tarefa">Tarefa 2</span>
+            </label>
+            <button class="remove-item">Apagar</button>
+         </form>
+      </div>
+      <div class="item-lista">
+         <form>
+            <label class="selecao-tarefa">
+               <input type="checkbox" name="selecao-tarefa" class="chkList"><span class="texto-tarefa">Tarefa 3</span>
+            </label>
+            <button class="remove-item">Apagar</button>
+         </form>
+      </div>
+      <div class="item-lista">
+         <form>
+            <label class="selecao-tarefa">
+               <input type="checkbox" name="selecao-tarefa" class="chkList"><span class="texto-tarefa">Tarefa 4</span>
+            </label>
+            <button class="remove-item">Apagar</button>
+         </form>
+      </div>
+   </section>
+   <nav class="menu">
+      <ul class="op-remover">
+         <li class="item-menu">
+            <a href="#" class="remove-selecao">Remover Selecionados</a>
+         </li>
+         <li class="item-menu">
+            <a href="#" class="remove-todos">Remover Todos</a>
+         </li>
+      </ul>
+   </nav>
+</div>
+</body>
+</html>
